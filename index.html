@@ -1,23 +1,87 @@
 <html>
-  <head>
-        <!DOCTYPE html>
-        <html>
+  <head><style>
+  .Submit {
+    background-color: grey;
+    border: solid;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 16px 4px;
+    cursor: pointer;
+    font-size: 14px;}
+    
+    h1 {
+      font-size: 35px;
+      color: black;
+      text-align: center;
+      margin: 40px auto 5px auto;
+      
+      padding-top: 30px auto;
+      padding-bottom: 5px auto;
+    }
+    p {
+      font-size: 20px;
+      color: black;
+      text-align: center;
+      margin: 5px auto 25px auto;
+      padding-top: 5px auto;
+      padding-bottom: 30px auto;
+    }
+
+    span{
+      font-size: 20px;
+    }
+    form {
+      font-size: 19px;
+      margin: 40px auto 40px 10px;
+      padding: 40px auto 40px 10px;
+
+    }
+    </style>
+     </head>
+     
+     
         <body style="background-color: darkcyan">
-        
+                  
             
         <Title>  </Title>
           <h1>Ponte Mediterra</h1>
-          <a href="hello_world.html">home</a>
           <p>Adventures on earth, in water and (on the) air</p>
-        
+          <form>
+            <!-- <fieldset>
+             <legend>Join the mailing list:</legend>
+             Name: <input type="text"><br>
+             Email: <input type="text"><br>
+             Phone number: <input type="text">
+            </fieldset> -->
+           </form>
              <h2>Add a new post</h2>
              <h3>Title</h3>
-             <h4> Content </h4>  
-             <h5>Submit</h5>
-        
-             <h6> Posts</h6>
+             <input class="titletext" type="text"><br>
+             <h3> Content </h3>  
+             <input class="contenttext" type="text"><br>
+             <button class="Submit" type="button" >Submit</button>
+            
+             
+             <h3> Posts <span class="addpostnumber">0</span></h3>
 
-             <!DOCTYPE html>
+                  <ul>
+                    <li>Coffee</li>
+                    <li>Food</li>
+                    <li>Radio</li>
+                    <li>Italy</li>
+                    <li>Amsterdam</li>
+                    <li>India</li>
+                  </ul>
+        <span class="screen-reader-text">Keresés:</span>
+        <input type="search" 
+        class="search-field" 
+      
+        value="" name="search">
+
+           
              <html>
              <body>
              
@@ -31,12 +95,14 @@
     projectId: "greenfoxsummercamp-ec753",
     storageBucket: "greenfoxsummercamp-ec753.appspot.com",
     messagingSenderId: "462700147014"
-    https://github.com/IndiTilos/IndiTilos.github.io.git
+   
   };
   firebase.initializeApp(config);
   fb = firebase.database();
-</script>s
-             <p>Browsers usually indent blockquote elements.</p>
+</script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+       <script src="index.js"></script>            
+       
+       <!-- <p>Browsers usually indent blockquote elements.</p>
              
              <blockquote cite="http://www.worldwildlife.org/who/index.html">
              For 50 years, WWF has been protecting the future of nature.
@@ -45,39 +111,11 @@
              1.2 million members in the United States and
              close to 5 million globally.
              </blockquote>
-             
+              -->
              </body>
              </html>
 
-
-
-             <ul>
-                    <li>Coffee</li>
-                    <li>Food</li>
-                    <li>Radio</li>
-                    <li>Italy</li>
-                    <li>Amsterdam</li>
-                    <li>India</li>
-                  </ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            
 
         <form>
                 <fieldset>
@@ -88,21 +126,11 @@
                 </fieldset>
                </form>
 
-    
-
-
         </body>
         </html>      
-           
 
-
-
-     
-     
-  </head>
-     <body>      
+       
      </body>
-
    
 </html>
 
